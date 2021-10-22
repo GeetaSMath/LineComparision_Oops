@@ -40,8 +40,18 @@ import java.util.Scanner;            // ......Scanner to get input
                       System.out.println("The lines are not equal");
 
 
+/// user case3 compare two lines find less than or greater than
+          if(length==length1)
+              System.out.println("The line1 is equal to line2");
+          else if(length>length1)
+              System.out.println("The line1 is longer than line2");
+          else
+              System.out.println("The line 2 is longer then line1");
 
-                  sc.close();
+
+
+
+          sc.close();
               }
 
           }
