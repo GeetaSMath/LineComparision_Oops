@@ -5,7 +5,7 @@ import java.util.Scanner;            // ......Scanner to get input
 
   public class LineComparsion_OopsPrblm {
 
-          public static void main(String[] args) {
+      public static void main(String[] args) {
               System.out.println("Welcome to Line Comparison Problem");
               int x1,y1;
               int x2,y2;
@@ -22,7 +22,28 @@ import java.util.Scanner;            // ......Scanner to get input
               double length = Math.sqrt(Math.pow(x2-x1, 2)+Math.pow(y2-y1, 2));
               System.out.println("The length of the line is = "+length);
 
-              sc.close();
+
+                  //UC2
+                  int a1,b1;
+                  int a2,b2;
+                  System.out.println("The coordinates of 2nd line are:");
+                  System.out.print("a1 = ");a1=sc.nextInt();
+                  System.out.print("b1 = ");b1=sc.nextInt();
+                  System.out.print("a2 = ");a2=sc.nextInt();
+                  System.out.print("b2 = ");b2=sc.nextInt();
+                  double length1 = Math.sqrt(Math.pow(a2-a1, 2)+Math.pow(b2-b1, 2));
+                  System.out.println("The length of the 2nd line is = "+length1);
+
+                  if(length==length1)
+                      System.out.println("The lines are equal");
+                  else
+                      System.out.println("The lines are not equal");
+
+
+
+                  sc.close();
+              }
+
           }
 
-      }
+
